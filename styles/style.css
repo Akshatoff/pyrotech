@@ -268,10 +268,49 @@ background-color: var(--background);
     }
   }
 
+#team {
+  height: fit-content;
+}
+
 #member-heading {
   font-size: 3rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding-top: 2rem;
   
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2rem;
+  justify-content: center;
+  height: 100%;
+}
+
+#align {
+  grid-column-start: 3;
+}
+
+.team-box {
+ 
+  padding: 2rem 4rem;
+}
+
+#team-name {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  text-align: center;
+ white-space:nowrap;
+}
+
+#team-pos {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#team-motto {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
